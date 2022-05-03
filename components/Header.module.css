@@ -1,0 +1,35 @@
+.navBar{
+    list-style:none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid var(--black);
+    background-color: var(--primaryC);
+    filter: drop-shadow(0em .2em 1.5em var(--black));
+}
+.navList{
+    font-size: 1em;   
+    font-weight: 600;
+    cursor: pointer;
+    padding-top: .2rem;
+    display: flex;
+}
+.navList > a{
+    padding: .65rem 1.5rem;
+    text-decoration: none;
+    margin: 0;
+}
+.navUnFocus{
+    color: var(--fontC); 
+    border-bottom: .25rem solid var(--primaryC);
+}
+.navFocus{
+    color: var(--glaucous); 
+    border-bottom: .25rem solid var(--glaucous);
+}
